@@ -1,4 +1,4 @@
-public class Conventer {
+public class Converter {
 
     private String document;
 

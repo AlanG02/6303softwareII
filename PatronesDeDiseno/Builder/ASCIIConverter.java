@@ -1,4 +1,4 @@
-public class ASCIIConverter  extends Conventer{
+public class ASCIIConverter  extends Converter{
 
     public void makeLine(){
 
@@ -6,7 +6,7 @@ public class ASCIIConverter  extends Conventer{
     }
 
      public void makeParagraph(){
-        
+
         System.out.println("Párrafo con ASCII");
     }
 
