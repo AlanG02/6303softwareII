@@ -1,0 +1,50 @@
+package PatronesDeDiseno.Tienda;
+
+public class Pedido {
+
+    private Cliente cliente;
+    private Producto[] productos;
+    private fecha fecha;
+    private numeroTarjetaCredito numeroTarjetaCredito;
+
+    public Pedido(Cliente cliente, Producto[] productos) {
+        this.cliente = cliente;
+        this.productos = productos;
+        this.fecha = new fecha();
+        this.numeroTarjetaCredito = new numeroTarjetaCredito();
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+    
+    public Producto[] getProductos() {
+        return productos;
+    }
+
+    public fecha getFecha() {
+        return fecha;
+    }
+
+    public numeroTarjetaCredito getNumeroTarjetaCredito() {
+        return numeroTarjetaCredito;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    
+    public void setProductos(Producto[] productos) {
+        this.productos = productos;
+    }
+    
+    public void setFecha(fecha fecha) {
+        this.fecha = fecha;
+    }
+
+    public void setNumeroTarjetaCredito(numeroTarjetaCredito numeroTarjetaCredito) {
+        this.numeroTarjetaCredito = numeroTarjetaCredito;
+    }
+    
+}

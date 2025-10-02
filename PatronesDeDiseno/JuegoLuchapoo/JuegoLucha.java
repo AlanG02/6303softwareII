@@ -4,12 +4,10 @@ public class JuegoLucha {
     private Personaje jugador1;
     private Personaje jugador2;
 
-    
     public JuegoLucha(Personaje jugador1, Personaje jugador2) {
         this.jugador1 = jugador1;
         this.jugador2 = jugador2;
     }
-
 
     public void iniciarPelea() {
         System.out.println("La pelea comienza entre " + jugador1.getNombre() + " y " + jugador2.getNombre() + "...");
@@ -22,9 +20,9 @@ public class JuegoLucha {
         }
 
         if (jugador1.estaVivo()) {
-            System.out.println(jugador1.getNombre() + " ha ganado la pelea.");
+            System.out.println(jugador1.getNombre() + " el jugador 1 ha ganado la pelea.");
         } else {
-            System.out.println(jugador2.getNombre() + " ha ganado la pelea.");
+            System.out.println(jugador2.getNombre() + " el jugador 2 ha ganado la pelea.");
         }
     }
 
