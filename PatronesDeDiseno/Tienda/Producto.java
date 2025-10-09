@@ -1,6 +1,6 @@
-package PatronesDeDiseno.Tienda.Producto;
+package PatronesDeDiseno.Tienda;
 
-public abstrac class Producto{
+public abstract class Producto {
 
     private int numero;
 
@@ -16,4 +16,6 @@ public abstrac class Producto{
         this.numero = numero;
     }
 
+  
+    public abstract void mostrarInfo();
 }

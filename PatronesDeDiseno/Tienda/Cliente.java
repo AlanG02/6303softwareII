@@ -31,5 +31,8 @@ public class  Cliente {
         this.cedula = cedula;
     }
     
-    
+      @Override
+    public String toString() {
+        return "Cliente: " + nombre + " (Cédula: " + cedula + ")";
+    }
 }
