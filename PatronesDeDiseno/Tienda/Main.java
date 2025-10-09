@@ -67,11 +67,11 @@ public class Main {
 
    
         System.out.println("\n=== DATOS DE PAGO ===");
-        System.out.print("Ingrese el número de la tarjeta de crédito (solo números): ");
-        int numeroTarjeta = sc.nextInt();
+    System.out.print("Ingrese el número de la tarjeta de crédito (solo números): ");
+    String numeroTarjeta = sc.nextLine();
 
       
-        Pedido pedido = new Pedido(cliente, productos, numeroTarjeta);
+    Pedido pedido = new Pedido(cliente, productos, numeroTarjeta);
 
       
         System.out.println("\n\n===== RESUMEN DEL PEDIDO =====");
