@@ -30,5 +30,4 @@ public class Trabajador {
         this.nombre = nombre;
     }
 
-    
 }
