@@ -1,6 +1,5 @@
 package PatronesDeDiseno.Tienda;
 
-
 public class Camara extends Producto {
 
     private String marca;
@@ -11,7 +10,6 @@ public class Camara extends Producto {
         this.marca = marca;
         this.modelo = modelo;
     }
-
 
     public String getMarca() {
         return marca;
@@ -29,7 +27,6 @@ public class Camara extends Producto {
         this.modelo = modelo;
     }
 
-    
     @Override
     public void mostrarInfo() {
         System.out.println("Cámara #" + getNumero() + " - Marca: " + marca + ", Modelo: " + modelo);

@@ -11,7 +11,6 @@ public class Impresion extends Producto {
         this.fotos = fotos;
     }
 
- 
     public String getColor() {
         return color;
     }
@@ -28,7 +27,6 @@ public class Impresion extends Producto {
         this.fotos = fotos;
     }
 
-   
     @Override
     public void mostrarInfo() {
         System.out.println("Impresión #" + getNumero() + " - Color: " + color);
@@ -36,5 +34,10 @@ public class Impresion extends Producto {
         for (Foto f : fotos) {
             System.out.println(" - " + f.getFichero());
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Impresion [numero=" + getNumero() + ", color=" + color + "]";
     }
 }

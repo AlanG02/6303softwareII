@@ -16,5 +16,6 @@ public abstract class Producto {
         this.numero = numero;
     }
 
+
     public abstract void mostrarInfo();
 }
