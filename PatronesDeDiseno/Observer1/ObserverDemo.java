@@ -15,4 +15,5 @@ public class ObserverDemo {
             sub.setState(scan.nextInt());
         }
     }
+    
 }
